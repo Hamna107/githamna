@@ -1,1 +1,10 @@
+# This is a random Python script that prints a random number
 
+import random
+
+def print_random_number():
+    number = random.randint(1, 100)
+    print(f"Random number: {number}")
+
+if __name__ == "__main__":
+    print_random_number()
